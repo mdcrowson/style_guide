@@ -13,9 +13,39 @@ $color-info: #927bc1;
 $color-success: #63cc82;
 $color-warning: #fd7856;
 
+$color-secondary-light: lighten($color-secondary, 15%);
+
+$color-error-light: lighten($color-error, 15%);
+$color-info-light: lighten($color-info, 15%);
+$color-success-light: lighten($color-success, 15%);
+$color-warning-light: lighten($color-warning, 15%);
+
 
 $color-text: #777; //gray
 
+// Theme colors
+
+$themes: (
+    '.col-1': #927bc1,
+    '.col-2': #fd7856,
+    '.col-3': #deb2ee,
+    '.col-4': #7ee6fd,
+    '.col-5': #88d9a0,
+    '.col-6': #4da2bb,
+    '.col-7': #ec9fa3,
+    '.col-8': #fd9f85,
+    '.col-9': #e4757a,
+    '.col-10': #63cc82,
+    '.col-11': #51ddfc,
+    '.col-12': #80e8d1,
+    );
+
+// Formatting
+$rounded-corners: 5px;
+
+$lighten-fade: background-color 0.4s ease-in;
+
+$margin-top: 10px;
 
 // Media queries
 

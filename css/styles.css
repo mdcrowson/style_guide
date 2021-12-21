@@ -434,26 +434,56 @@ a {
 /* line 18, ../../../../../Users/marissacrowson/Documents/Coding Projects/Treehouse Front End TechDegree/FEWD-project-4/style_guide/scss/component/_button.scss */
 .default {
   background-color: #51ddfc;
+  transition: background-color 0.4s ease-in;
 }
 
-/* line 22, ../../../../../Users/marissacrowson/Documents/Coding Projects/Treehouse Front End TechDegree/FEWD-project-4/style_guide/scss/component/_button.scss */
-.error {
-  background-color: #e4757a;
+/* line 21, ../../../../../Users/marissacrowson/Documents/Coding Projects/Treehouse Front End TechDegree/FEWD-project-4/style_guide/scss/component/_button.scss */
+.default:hover {
+  background-color: #9cecfd;
 }
 
 /* line 26, ../../../../../Users/marissacrowson/Documents/Coding Projects/Treehouse Front End TechDegree/FEWD-project-4/style_guide/scss/component/_button.scss */
-.info {
-  background-color: #927bc1;
+.error {
+  background-color: #e4757a;
+  transition: background-color 0.4s ease-in;
 }
 
-/* line 30, ../../../../../Users/marissacrowson/Documents/Coding Projects/Treehouse Front End TechDegree/FEWD-project-4/style_guide/scss/component/_button.scss */
-.success {
-  background-color: #63cc82;
+/* line 29, ../../../../../Users/marissacrowson/Documents/Coding Projects/Treehouse Front End TechDegree/FEWD-project-4/style_guide/scss/component/_button.scss */
+.error:hover {
+  background-color: #f1b5b8;
 }
 
 /* line 34, ../../../../../Users/marissacrowson/Documents/Coding Projects/Treehouse Front End TechDegree/FEWD-project-4/style_guide/scss/component/_button.scss */
+.info {
+  background-color: #927bc1;
+  transition: background-color 0.4s ease-in;
+}
+
+/* line 37, ../../../../../Users/marissacrowson/Documents/Coding Projects/Treehouse Front End TechDegree/FEWD-project-4/style_guide/scss/component/_button.scss */
+.info:hover {
+  background-color: #bdafd9;
+}
+
+/* line 42, ../../../../../Users/marissacrowson/Documents/Coding Projects/Treehouse Front End TechDegree/FEWD-project-4/style_guide/scss/component/_button.scss */
+.success {
+  background-color: #63cc82;
+  transition: background-color 0.4s ease-in;
+}
+
+/* line 45, ../../../../../Users/marissacrowson/Documents/Coding Projects/Treehouse Front End TechDegree/FEWD-project-4/style_guide/scss/component/_button.scss */
+.success:hover {
+  background-color: #9ddfb0;
+}
+
+/* line 50, ../../../../../Users/marissacrowson/Documents/Coding Projects/Treehouse Front End TechDegree/FEWD-project-4/style_guide/scss/component/_button.scss */
 .warning {
   background-color: #fd7856;
+  transition: background-color 0.4s ease-in;
+}
+
+/* line 53, ../../../../../Users/marissacrowson/Documents/Coding Projects/Treehouse Front End TechDegree/FEWD-project-4/style_guide/scss/component/_button.scss */
+.warning:hover {
+  background-color: #feb4a2;
 }
 
 /* ------------- Forms ------------- */
@@ -504,67 +534,67 @@ a {
   border-radius: 5px;
 }
 
-/* line 26, ../../../../../Users/marissacrowson/Documents/Coding Projects/Treehouse Front End TechDegree/FEWD-project-4/style_guide/scss/component/_grid.scss */
+/* line 7, ../../../../../Users/marissacrowson/Documents/Coding Projects/Treehouse Front End TechDegree/FEWD-project-4/style_guide/scss/utilities/_mixins.scss */
 .theme.col-1 {
   background-color: #927bc1;
 }
 
-/* line 30, ../../../../../Users/marissacrowson/Documents/Coding Projects/Treehouse Front End TechDegree/FEWD-project-4/style_guide/scss/component/_grid.scss */
+/* line 7, ../../../../../Users/marissacrowson/Documents/Coding Projects/Treehouse Front End TechDegree/FEWD-project-4/style_guide/scss/utilities/_mixins.scss */
 .theme.col-2 {
   background-color: #fd7856;
 }
 
-/* line 34, ../../../../../Users/marissacrowson/Documents/Coding Projects/Treehouse Front End TechDegree/FEWD-project-4/style_guide/scss/component/_grid.scss */
+/* line 7, ../../../../../Users/marissacrowson/Documents/Coding Projects/Treehouse Front End TechDegree/FEWD-project-4/style_guide/scss/utilities/_mixins.scss */
 .theme.col-3 {
   background-color: #deb2ee;
 }
 
-/* line 38, ../../../../../Users/marissacrowson/Documents/Coding Projects/Treehouse Front End TechDegree/FEWD-project-4/style_guide/scss/component/_grid.scss */
+/* line 7, ../../../../../Users/marissacrowson/Documents/Coding Projects/Treehouse Front End TechDegree/FEWD-project-4/style_guide/scss/utilities/_mixins.scss */
 .theme.col-4 {
   background-color: #7ee6fd;
 }
 
-/* line 42, ../../../../../Users/marissacrowson/Documents/Coding Projects/Treehouse Front End TechDegree/FEWD-project-4/style_guide/scss/component/_grid.scss */
+/* line 7, ../../../../../Users/marissacrowson/Documents/Coding Projects/Treehouse Front End TechDegree/FEWD-project-4/style_guide/scss/utilities/_mixins.scss */
 .theme.col-5 {
   background-color: #88d9a0;
 }
 
-/* line 46, ../../../../../Users/marissacrowson/Documents/Coding Projects/Treehouse Front End TechDegree/FEWD-project-4/style_guide/scss/component/_grid.scss */
+/* line 7, ../../../../../Users/marissacrowson/Documents/Coding Projects/Treehouse Front End TechDegree/FEWD-project-4/style_guide/scss/utilities/_mixins.scss */
 .theme.col-6 {
   background-color: #4da2bb;
 }
 
-/* line 50, ../../../../../Users/marissacrowson/Documents/Coding Projects/Treehouse Front End TechDegree/FEWD-project-4/style_guide/scss/component/_grid.scss */
+/* line 7, ../../../../../Users/marissacrowson/Documents/Coding Projects/Treehouse Front End TechDegree/FEWD-project-4/style_guide/scss/utilities/_mixins.scss */
 .theme.col-7 {
   background-color: #ec9fa3;
 }
 
-/* line 54, ../../../../../Users/marissacrowson/Documents/Coding Projects/Treehouse Front End TechDegree/FEWD-project-4/style_guide/scss/component/_grid.scss */
+/* line 7, ../../../../../Users/marissacrowson/Documents/Coding Projects/Treehouse Front End TechDegree/FEWD-project-4/style_guide/scss/utilities/_mixins.scss */
 .theme.col-8 {
   background-color: #fd9f85;
 }
 
-/* line 58, ../../../../../Users/marissacrowson/Documents/Coding Projects/Treehouse Front End TechDegree/FEWD-project-4/style_guide/scss/component/_grid.scss */
+/* line 7, ../../../../../Users/marissacrowson/Documents/Coding Projects/Treehouse Front End TechDegree/FEWD-project-4/style_guide/scss/utilities/_mixins.scss */
 .theme.col-9 {
   background-color: #e4757a;
 }
 
-/* line 62, ../../../../../Users/marissacrowson/Documents/Coding Projects/Treehouse Front End TechDegree/FEWD-project-4/style_guide/scss/component/_grid.scss */
+/* line 7, ../../../../../Users/marissacrowson/Documents/Coding Projects/Treehouse Front End TechDegree/FEWD-project-4/style_guide/scss/utilities/_mixins.scss */
 .theme.col-10 {
   background-color: #63cc82;
 }
 
-/* line 66, ../../../../../Users/marissacrowson/Documents/Coding Projects/Treehouse Front End TechDegree/FEWD-project-4/style_guide/scss/component/_grid.scss */
+/* line 7, ../../../../../Users/marissacrowson/Documents/Coding Projects/Treehouse Front End TechDegree/FEWD-project-4/style_guide/scss/utilities/_mixins.scss */
 .theme.col-11 {
   background-color: #51ddfc;
 }
 
-/* line 70, ../../../../../Users/marissacrowson/Documents/Coding Projects/Treehouse Front End TechDegree/FEWD-project-4/style_guide/scss/component/_grid.scss */
+/* line 7, ../../../../../Users/marissacrowson/Documents/Coding Projects/Treehouse Front End TechDegree/FEWD-project-4/style_guide/scss/utilities/_mixins.scss */
 .theme.col-12 {
   background-color: #80e8d1;
 }
 
-/* line 74, ../../../../../Users/marissacrowson/Documents/Coding Projects/Treehouse Front End TechDegree/FEWD-project-4/style_guide/scss/component/_grid.scss */
+/* line 30, ../../../../../Users/marissacrowson/Documents/Coding Projects/Treehouse Front End TechDegree/FEWD-project-4/style_guide/scss/component/_grid.scss */
 .card {
   flex-basis: 100%;
 }
@@ -578,7 +608,7 @@ a {
   flex-direction: column;
 }
 
-/* line 16, ../../../../../Users/marissacrowson/Documents/Coding Projects/Treehouse Front End TechDegree/FEWD-project-4/style_guide/scss/component/_navigation.scss */
+/* line 14, ../../../../../Users/marissacrowson/Documents/Coding Projects/Treehouse Front End TechDegree/FEWD-project-4/style_guide/scss/component/_navigation.scss */
 .nav-link {
   text-align: center;
   border-radius: 5px;
@@ -588,7 +618,7 @@ a {
   transition: background-color .2s ease-in-out,  color .2s ease-in-out;
 }
 
-/* line 27, ../../../../../Users/marissacrowson/Documents/Coding Projects/Treehouse Front End TechDegree/FEWD-project-4/style_guide/scss/component/_navigation.scss */
+/* line 23, ../../../../../Users/marissacrowson/Documents/Coding Projects/Treehouse Front End TechDegree/FEWD-project-4/style_guide/scss/component/_navigation.scss */
 .nav-link:hover {
   color: #fff;
   background-color: #58e1c1;
@@ -598,31 +628,25 @@ a {
 /*              Images                           */
 /* ============================================= */
 /* line 5, ../../../../../Users/marissacrowson/Documents/Coding Projects/Treehouse Front End TechDegree/FEWD-project-4/style_guide/scss/component/_images.scss */
-.img-avatar {
+.img-avatar, .img-frame, .img-logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* line 13, ../../../../../Users/marissacrowson/Documents/Coding Projects/Treehouse Front End TechDegree/FEWD-project-4/style_guide/scss/component/_images.scss */
+.img-avatar {
   margin-top: 10px;
   max-width: 100%;
   max-height: 100%;
 }
 
-/* line 14, ../../../../../Users/marissacrowson/Documents/Coding Projects/Treehouse Front End TechDegree/FEWD-project-4/style_guide/scss/component/_images.scss */
+/* line 19, ../../../../../Users/marissacrowson/Documents/Coding Projects/Treehouse Front End TechDegree/FEWD-project-4/style_guide/scss/component/_images.scss */
 .img-frame {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 10px;
   max-width: 100%;
   padding: 13px;
   border: 1px solid #ccc;
-}
-
-/* line 24, ../../../../../Users/marissacrowson/Documents/Coding Projects/Treehouse Front End TechDegree/FEWD-project-4/style_guide/scss/component/_images.scss */
-.img-logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 /* ============================================= */
